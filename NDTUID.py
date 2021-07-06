@@ -6,9 +6,6 @@ class NDTUID:
         self.techniques = techniques                           #
         self.testSpecifications = testSpecifications     #
 
-        def get_method(self):
-            return self.method
-
         def get_methodName(self):
             return(self.methodName)
 
