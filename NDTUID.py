@@ -1,12 +1,12 @@
 class NDTUID:
     # method name in constructor
-    def __init__(self, method, methodName, techniques, testSpecifications):
-        self.method = method  # Public Attribute
+    def __init__(self, NDTmethod, methodName, techniques, testSpecifications):
+        self.NDTmethod = NDTmethod  # Public Attribute
         self.methodName = methodName                            #
         self.techniques = techniques                           #
         self.testSpecifications = testSpecifications     #
 
-        def get_method(self):
+        def get_NDTmethod(self):
             return self.method
 
         def get_methodName(self):
