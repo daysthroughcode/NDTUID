@@ -1,6 +1,6 @@
 class NDTUID:
 
-    # methode name in constructor
+    # method name in constructor
     def __init__(self, n):
         self.method = n
 
