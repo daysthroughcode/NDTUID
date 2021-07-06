@@ -7,7 +7,7 @@ class NDTUID:
         self.testSpecifications = testSpecifications     #
 
         def get_NDTmethod(self):
-            return self.method
+            return self.NDTmethod
 
         def get_methodName(self):
             return self.methodName
